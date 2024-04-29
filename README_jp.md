@@ -18,10 +18,10 @@ docker run -it -d --name rtsp2fmp4 -p 6161:6161 yumexupanic/rtsp2fmp4
 利用する
 ```shell
 # fmp4 over http 
-http://127.0.0.1:6060?url=rtsp://xxxx
+http://127.0.0.1:6161?url=rtsp://xxxx
 
 # fmp4 over websocket
-ws://127.0.0.1:6060?url=rtsp://xxxx
+ws://127.0.0.1:6161?url=rtsp://xxxx
 ```
 
 > rtspアカウントのパスワードに特殊な記号が含まれている場合は、URLエンコーディングが必要です。
