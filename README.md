@@ -12,7 +12,7 @@ Download the executable, or use docker.
 
 docker
 ```shell
-docker run -it -d --name rtsp2fmp4 -p 6161:6161 rtsp2fmp4
+docker run -it -d --name rtsp2fmp4 -p 6161:6161 yumexupanic/rtsp2fmp4
 ```
 
 Use
